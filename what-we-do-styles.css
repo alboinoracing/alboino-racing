@@ -17,7 +17,7 @@ header .icon{
     width: 47px;
     height: 53px;
     margin:0 0 0 30px;
-    background-image: url("/images/bigg-transparent-logo.png");
+    background-image: url("images/bigg-transparent-logo.png");
     background-size: 47px;
     z-index: 10;
 }
@@ -62,7 +62,7 @@ header div .text{
     height: 30px;
     padding:0;
     margin:15px;
-    background-image: url("/images/italian-flag.png");
+    background-image: url("images/italian-flag.png");
     background-size: 45px;
 }
 
@@ -75,7 +75,7 @@ header div .text{
     margin:25px;
     border-radius: 30px;
     text-indent: -999999999px;
-    background-image: url("/images/top-background3.png");
+    background-image: url("images/top-background3.png");
     background-size: 100%;
     min-height: 150px;
     box-shadow: rgb(72, 60, 106) 0 100px 400px;
