@@ -69,7 +69,7 @@ div .text:hover{
     text-align: center;
 }
 .big-image{
-    height:80vh;
+    height:70vh;
     margin:25px;
     border-radius: 30px;
     text-indent: -999999999px;
@@ -112,14 +112,14 @@ div .text:hover{
     background-size: min(38vh,80vw);
     position: relative;
     display:inline-block;
-    top:-60vh;
+    top:-50vh;
     margin:-20vh;
 }
 .big-name{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(126, 19, 19);
     position: absolute;
-    top:calc(60px + 55vh);
+    top:calc(60px + calc(44vh + 5vw));
     width: 100%;
     font-size: 9vh;
     text-shadow: rgb(255, 122, 122) 0 0 10px;
@@ -322,7 +322,7 @@ div .text:hover{
     position: absolute;
     margin:60px 0 0 0;
     left: 100px;
-    font-size: 50px;
+    font-size: 7vh;
     color:white;
 }
 
@@ -331,7 +331,7 @@ div .text:hover{
     flex-direction: row;
     list-style-type: none;
     flex-wrap: wrap;
-    padding: 130px 50px 60px 50px;
+    padding: calc(70px + 10vh) 50px 60px 50px;
 }
 .sponsors-logos ul li{
     color:white;
