@@ -17,7 +17,7 @@ header .icon{
     width: 47px;
     height: 53px;
     margin:0 0 0 30px;
-    background-image: url("/images/bigg-transparent-logo.png");
+    background-image: url("../../images/bigg-transparent-logo.png");
     background-size: 47px;
     z-index: 10;
 }
@@ -60,7 +60,7 @@ div .text:hover{
     height: 30px;
     padding:0;
     margin:15px;
-    background-image: url("/images/english-flag.png");
+    background-image: url("../../images/english-flag.png");
     background-size: 45px;
 }
 
@@ -73,7 +73,7 @@ div .text:hover{
     margin:25px;
     border-radius: 30px;
     text-indent: -999999999px;
-    background-image: url("/images/top-background3.png");
+    background-image: url("../../images/top-background3.png");
     background-size: 100%;
     min-height: 150px;
     box-shadow: rgb(72, 60, 106) 0 100px 400px;
@@ -155,23 +155,19 @@ div .text:hover{
 }
 
 .sponsors-section{
-    position:relative;
-    margin:0 0 400px 0
+    margin:0 0 40px 0
 }
 .bg{
-    height:400px;
     margin:25px;
     border-radius: 30px;
-    text-indent: -999999999px;
     background-image: conic-gradient(rgb(146, 47, 47) ,rgb(38, 0, 0), rgb(146, 47, 47));
-    z-index: -2;
     box-shadow: rgb(70, 69, 124) 0 0 200px;
 }
 .sponsor-text{
     position: absolute;
-    top: 60px;
+    margin:60px 0 0 0;
     left: 100px;
-    font-size: 50px;
+    font-size: 7vh;
     color:white;
 }
 
@@ -180,11 +176,9 @@ div .text:hover{
     flex-direction: row;
     list-style-type: none;
     flex-wrap: wrap;
-    margin: -280px 0;
-    padding: 0 50px;
+    padding: calc(70px + 10vh) 50px 60px 50px;
 }
 .sponsors-logos ul li{
-    margin:0;
     color:white;
     padding:0 50px;
 }

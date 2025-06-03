@@ -17,7 +17,7 @@ header .icon{
     width: 47px;
     height: 53px;
     margin:0 0 0 30px;
-    background-image: url("/images/bigg-transparent-logo.png");
+    background-image: url("../images/bigg-transparent-logo.png");
     background-size: 47px;
     z-index: 10;
 }
@@ -62,7 +62,7 @@ header div .text{
     height: 30px;
     padding:0;
     margin:15px;
-    background-image: url("/images/english-flag.png");
+    background-image: url("../images/english-flag.png");
     background-size: 45px;
 }
 
@@ -75,7 +75,7 @@ header div .text{
     margin:25px;
     border-radius: 30px;
     text-indent: -999999999px;
-    background-image: url("/images/top-background3.png");
+    background-image: url("../images/top-background3.png");
     background-size: 100%;
     min-height: 150px;
     box-shadow: rgb(72, 60, 106) 0 100px 400px;
@@ -131,7 +131,7 @@ header div .text{
     margin:2vw 0;
     padding:7vw 6vw;
     font-size: 1.3vw;
-    background-image: url("/images/sfondo-what.jpg");
+    background-image: url("../images/sfondo-what.jpg");
     background-size: 100%;
     box-shadow: rgba(0, 0, 0, 0.192) 0 0 20px;
     height: 320px;
@@ -151,7 +151,7 @@ div .arrow{
     transition: all 1s;
     height:5vw;
     width:4.5vw;
-    background-image: url("/images/arrow.png");
+    background-image: url("../images/arrow.png");
     background-size: 100%;
     transform: translateY(10vw);
     margin: -2vw 0;
@@ -276,7 +276,7 @@ div .road-map-image img{
     position: absolute;
     margin:60px 0 0 0;
     left: 100px;
-    font-size: 50px;
+    font-size: 7vh;
     color:white;
 }
 
@@ -285,7 +285,7 @@ div .road-map-image img{
     flex-direction: row;
     list-style-type: none;
     flex-wrap: wrap;
-    padding: 130px 50px 60px 50px;
+    padding: calc(70px + 10vh) 50px 60px 50px;
 }
 .sponsors-logos ul li{
     color:white;
