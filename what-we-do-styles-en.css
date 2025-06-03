@@ -1,0 +1,299 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(11, 0, 41);
+}
+header{
+    border-radius:30px;
+    background: rgb(38, 33, 46);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0 3vw;
+    padding: 0 150px 0 0;
+}  
+header .icon{
+    text-indent: -999999999px;
+    width: 47px;
+    height: 53px;
+    margin:0 0 0 30px;
+    background-image: url("../images/bigg-transparent-logo.png");
+    background-size: 47px;
+    z-index: 10;
+}
+header .animation{
+    color: rgb(181, 181, 181);
+    padding:20px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .animation:hover{
+    color: white;
+    background: rgb(76, 76, 76);
+}
+a {
+    text-decoration: none;
+}
+
+.language{
+    margin-right: 0;
+    position: absolute;
+    right: 5%;
+    color: rgb(181, 181, 181);
+    padding:20px;
+    transition: all 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header div .text{
+    border-radius: 10px;
+    width:70px;
+    top:0;
+}
+.language .text:hover{
+    color: white;
+    background: rgb(76, 76, 76);
+}
+.flag{
+    top:0;
+    right: 5%;
+    text-indent: -999999999px;
+    width: 45px;
+    height: 30px;
+    padding:0;
+    margin:15px;
+    background-image: url("../images/english-flag.png");
+    background-size: 45px;
+}
+
+
+.main{
+    text-align: center;
+}
+.big-image{
+    height:100px;
+    margin:25px;
+    border-radius: 30px;
+    text-indent: -999999999px;
+    background-image: url("../images/top-background3.png");
+    background-size: 100%;
+    min-height: 150px;
+    box-shadow: rgb(72, 60, 106) 0 100px 400px;
+}
+.big-name{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(103, 0, 0);
+    position: relative;
+    top:-123px;
+    font-size: min(80px,12vw);
+}
+
+.absolute{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center; 
+}
+.name-position{
+    top:-20px;
+}
+
+
+.space{
+    text-indent: -999999999px;
+    height: 10px;
+}
+
+.round-image{
+    border-radius: 10000px;
+    width:25vw;
+    height:25vw;
+}
+.paragraph{
+    line-height: 1.5;
+}
+
+
+.intro .title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin:0 23vw 30px 4vw;
+}
+.road-map{
+    margin:0 60px;
+    color: rgb(198, 198, 198);
+}
+.intro{
+    margin:2vw 0;
+    padding:7vw 6vw;
+    font-size: 1.3vw;
+    background-image: url("../images/sfondo-what.jpg");
+    background-size: 100%;
+    box-shadow: rgba(0, 0, 0, 0.192) 0 0 20px;
+    height: 320px;
+    border-radius: 30px;
+}
+.intro .text{
+    background: white;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(0, 0, 0, 0.206));
+    border: 5px solid black;
+    font-size: max(17px, 1.5vw);
+    margin: 0 25vw 0 0;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+}
+div .arrow{
+    transition: all 1s;
+    height:5vw;
+    width:4.5vw;
+    background-image: url("../images/arrow.png");
+    background-size: 100%;
+    transform: translateY(10vw);
+    margin: -2vw 0;
+}
+div .road-map-image img{
+    transition: all 1s;
+    height: 19.5vw;
+    transform: translateX(5.5vw);
+    border-radius: 15px;
+}
+.road-map{
+    position: relative;
+}
+.road-map-section{
+    transition: all 1s;
+    border-radius: 40px;
+    background: white;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(0, 0, 0, 0.206));
+    border: 5px solid black;
+    width: 15.5vw;
+    height: calc(21.5vw);
+    position: absolute;
+    right: 5vw;
+    top:5vw;
+}
+.road-map-section:hover{
+    transition: all 1s;
+    background: white;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(0, 0, 0, 0.378));
+    height: 62vw;
+    width: 29vw;
+    .road-map-image img{
+        transition: all 1s;
+        height: 60vw;
+        transform: translateX(35px);
+    }
+    .arrow{
+        transition: all 1s;
+        height:5vw;
+        width:4.5vw;
+        background: white;
+        background-size: 100%;
+        transform: translateY(10vw);
+        margin: -2vw 0;
+        filter: opacity(0);
+    }
+}   
+
+.link{
+    background: rgba(255, 255, 255, 0.241);
+    border-radius: 10000px;
+    padding:0 15px; 
+}
+.step1 .title{
+    color: white;
+    margin: 120px 30% 120px 0;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.step1{
+    position: relative;
+    margin:70px 0 0 0;
+    padding:0 0 150px 10vw;
+    z-index: -1;
+}
+.paragraph{
+    color: white;
+    margin: 30px 41vw 0 -1vw;
+    font-size: max(20px,1.8vw);
+    text-shadow: white 0 0 60px;
+}
+.left-image{
+    position: absolute;
+    top:0;
+    right:10vw;
+    height: min(400px,30vw);
+    border-radius: 7px;
+}
+
+
+.s1{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(219, 212, 10, 0.252));
+}
+.s2{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(176, 159, 98, 0.252));
+}
+.s3{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(181, 152, 102, 0.252));
+}
+.s4{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(219, 130, 103, 0.252));
+}
+.s5{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(119, 35, 113, 0.252));
+}
+.s6{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(35, 98, 119, 0.252));
+}
+.s7{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(36, 160, 127, 0.252));
+}
+.s8{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(35, 187, 42, 0.252));
+}
+
+
+.space2{
+    text-indent: -999999999px;
+    height: 100px;
+}
+
+.sponsors-section{
+    margin:0 0 40px 0
+}
+.bg{
+    margin:25px;
+    border-radius: 30px;
+    background-image: conic-gradient(rgb(146, 47, 47) ,rgb(38, 0, 0), rgb(146, 47, 47));
+    box-shadow: rgb(70, 69, 124) 0 0 200px;
+}
+.sponsor-text{
+    position: absolute;
+    margin:60px 0 0 0;
+    left: 100px;
+    font-size: 7vh;
+    color:white;
+}
+
+.sponsors-logos ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: calc(70px + 10vh) 50px 60px 50px;
+}
+.sponsors-logos ul li{
+    color:white;
+    padding:0 50px;
+}
+.sponsors-logos ul li:first-child{
+    padding: 0 50px 0 50px;
+}
+.sponsors-logos ul li img{
+    height:150px;
+}

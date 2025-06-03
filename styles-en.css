@@ -1,0 +1,345 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(11, 0, 41);
+}
+header{
+    border-radius:30px;
+    background: rgb(38, 33, 46);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0 3vw;
+    padding: 0 150px 0 0;
+}   
+header .icon{
+    text-indent: -999999999px;
+    width: 47px;
+    height: 53px;
+    margin:0 0 0 30px;
+    background-image: url("../images/bigg-transparent-logo.png");
+    background-size: 47px;
+    z-index: 10;
+}
+header .animation{
+    color: rgb(181, 181, 181);
+    padding:20px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .animation:hover{
+    color: white;
+    background: rgb(76, 76, 76);
+}
+a {
+    text-decoration: none;
+}
+
+.language{
+    margin-right: 0;
+    position: absolute;
+    right: 5%;
+    color: rgb(181, 181, 181);
+    padding:20px;
+    transition: all 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header div .text{
+    border-radius: 10px;
+    width:70px;
+}
+div .text:hover{
+    color: white;
+    background: rgb(76, 76, 76);
+}
+.flag{
+    right: 5%;
+    text-indent: -999999999px;
+    width: 45px;
+    height: 30px;
+    padding:0;
+    margin:15px;
+    background-image: url("../images/english-flag.png");
+    background-size: 45px;
+}
+
+
+.main{
+    text-align: center;
+}
+.big-image{
+    height:70vh;
+    margin:25px;
+    border-radius: 30px;
+    text-indent: -999999999px;
+    background: linear-gradient(to top, rgb(83, 121, 138),rgb(180, 196, 203));
+    background-size: 100%;
+    background-position: center;
+    min-height: 150px;
+    box-shadow: rgb(87, 102, 133) 0 100px 400px;
+}
+.right-people{
+    text-indent: -999999999px;
+    width: min(500px,45vw);
+    height: min(500px,45vw);
+    background: rgbaa(255, 0, 166, 0.099);
+    background-image: url("../images/persone-a-destra.png");
+    background-size: min(500px,45vw);
+    position: relative;
+    top: calc(56.5px - min(500px,45vw));
+    margin: -100px 25px -100px 25px;
+    border-radius: 30px;
+}
+.left-people{
+    text-indent: -999999999px;
+    width: min(500px,45vw);
+    height: min(500px,45vw);
+    background: rgbaa(255, 0, 166, 0.099);
+    background-image: url("../images/persone-a-sinstra.png");
+    background-size: min(500px,45vw);
+    position: relative;
+    top: calc(7px - min(500px,45vw));
+    left: 100%;
+    margin: calc(42px + calc(7px - min(500px,45vw))) calc(-25px - min(500px,45vw));
+    border-radius: 30px;
+}
+.big-icon{
+    text-indent: -999999999px;
+    width:min(38vh,80vw);
+    height: min(40vh,90vw);
+    background-image: url("../images/bigg-transparent-logo.png");
+    background-size: min(38vh,80vw);
+    position: relative;
+    display:inline-block;
+    top:-50vh;
+    margin:-20vh;
+}
+.big-name{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(126, 19, 19);
+    position: absolute;
+    top:calc(60px + calc(44vh + 5vw));
+    width: 100%;
+    font-size: 9vh;
+    text-shadow: rgb(255, 122, 122) 0 0 10px;
+}
+.team{
+    margin:0 50px;
+    position: relative;
+    top:-80px;
+    color: rgb(74, 74, 74);
+    text-shadow: rgb(255, 255, 255) 0 0 10px;
+}
+@media screen and (max-width: 900px) {
+    .team{
+        font-size: 10px;
+    }
+}
+
+.absolute{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center; 
+}
+.name-position{
+    top:-20px;
+}
+
+.left-image {
+    text-indent: -999999999px;
+    position: relative;
+    left: 100px;
+    color:white;
+    width: min(35vh,60vw);
+    height: min(35vh,60vw);
+    background-size: 60vh;
+    background-image: url("../images/chi-siamo-image.jpg");
+    border-radius: 50%;
+}
+.effect::after, .effect::before{
+    content:'';
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(rgb(255, 104, 104),rgb(161, 255, 98),rgb(111, 255, 255),rgb(132, 115, 255),rgb(255, 111, 245),rgb(255, 104, 104));
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    padding: 3px;
+    border-radius: 50000px;
+    z-index: -1;
+}
+.effect::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+} 
+.left-text{
+    color: white;
+    background:red;
+    padding:3.5vh;
+    border-radius: 5000px;
+    width:250px;
+    text-align: center;
+    position: relative;
+    margin:-22.5vh 0;
+    left: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5vh;
+}
+.right-image {
+    text-indent: -999999999px;
+    position: relative;
+    top:39vh;
+    left: calc(100% - 100px - min(35vh,60vw));
+    color:white;
+    width: min(35vh,60vw);
+    height: min(35vh,60vw);
+    background-size: 35vh;
+    background-image: url("../images/cosa-facciamo-image.jpg");
+    background-position: bottom;
+    border-radius: 50%;
+}
+.right-text{
+    color: white;
+    background:red;
+    padding:3.5vh;
+    border-radius: 5000px;
+    width:250px;
+    text-align: center;
+    position: relative;
+    top:16.5vh;
+    left: calc(100% - 700px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5vh;
+}
+.third div{
+    top: 30vh;
+}
+.third .image{
+    background-image: url("../images/team.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.fourth div{
+    top: 50vh;
+}
+.fourth .image{
+    background-image: url("../images/contatti-image.jpg");
+    background-size: 180%;
+    background-position: center;
+    top:70vh;
+}
+@media screen and (max-width:975px) {
+    .left-text{
+        left: 200px;
+    }
+    .right-text{
+        right: 200px;
+    }
+    .big-name{
+        font-size: 50px;
+    }
+}
+
+
+.links div .animation:hover{
+    background: rgb(255, 169, 169);
+
+}
+
+.space{
+    text-indent: -999999999px;
+    height: 80vh;
+}
+
+.socials ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.social {
+    color:white;
+    text-indent: 0;
+    margin: auto;
+    font-size: 0;
+    transition: all 0.5s;
+}
+.social a img{
+    width:min(20.5vh,30vw);
+    height:min(20.5vh,30vw);
+    border-radius: min(6.15vh,9vw);
+    box-shadow: rgb(186, 186, 186) 0 0 200px;
+    transition: all 1s;
+}
+.social a img:hover{
+    transition: all 0.2s;
+    box-shadow: rgb(255, 255, 255) 0 0 100px;
+}
+.logo-gmail{
+    border-radius: min(6.15vh,9vw);
+    background: rgb(220, 220, 203);
+    width:min(20.5vh,30vw);
+    height:min(20.5vh,30vw);
+    transition: all 0.5s;
+    position: relative;
+    text-decoration: none;
+}
+.logo-gmail .text{
+    text-align: center;
+    position: absolute;
+    top: min(9vh,13.5vw);
+    left:calc(min(20.5vh,30vw) + 30px);
+    color: black;
+}
+.logo-gmail:hover{
+    font-size: 27px;
+    width:calc(min(20.5vh,30vw) + 360px);
+    transition: all 0.5s;
+}
+
+.space2{
+    text-indent: -999999999px;
+    height: 50px;
+}
+
+.sponsors-section{
+    margin:0 0 40px 0
+}
+.bg{
+    margin:25px;
+    border-radius: 30px;
+    background-image: conic-gradient(rgb(146, 47, 47) ,rgb(38, 0, 0), rgb(146, 47, 47));
+    box-shadow: rgb(70, 69, 124) 0 0 200px;
+}
+.sponsor-text{
+    position: absolute;
+    margin:60px 0 0 0;
+    left: 100px;
+    font-size: 7vh;
+    color:white;
+}
+
+.sponsors-logos ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: calc(70px + 10vh) 50px 60px 50px;
+}
+.sponsors-logos ul li{
+    color:white;
+    padding:0 50px;
+}
+.sponsors-logos ul li:first-child{
+    padding: 0 50px 0 50px;
+}
+.sponsors-logos ul li img{
+    height:150px;
+}
