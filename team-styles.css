@@ -17,7 +17,7 @@ header .icon{
     width: 47px;
     height: 53px;
     margin:0 0 0 30px;
-    background-image: url("../images/bigg-transparent-logo.png");
+    background-image: url("images/bigg-transparent-logo.png");
     background-size: 47px;
     z-index: 10;
 }
